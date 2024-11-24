@@ -1,27 +1,18 @@
 Toyota Motor Europe NV/SA and its affiliates retain all intellectual property and proprietary rights in and to this software, related documentation and any modifications thereto. Any use, reproduction, disclosure or distribution of this software and related documentation without an express license agreement from Toyota Motor Europe NV/SA is strictly prohibited.
 
-# Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation
-[**arXiv**](https://arxiv.org/abs/2403.08605) | [**website**](http://moma-llm.cs.uni-freiburg.de) 
+# ThinkPlan: Towards Multimodal for Low-resource Long-Horizontal Semantic Path-planning in Robotics
 
-Repository providing the source code for the paper
->Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation  
->[Daniel Honerkamp](https://rl.uni-freiburg.de/people/honerkamp)* [Martin Büchner](https://rl.uni-freiburg.de/people/buechner)*,  [Fabien Despinoy](https://www.toyota-europe.com/about-us/toyota-in-europe/toyota-motor-europe), [Tim Welschehold](https://rl.uni-freiburg.de/people/welschehold) and [Abhinav Valada](https://rl.uni-freiburg.de/people/valada)
+
+
 
 <p align="center">
   <!-- <img src="assets/teaser.png" alt="Overview of Batch3DMOT architecture" width="245" /> -->
-  <img src="assets/overview.png" alt="Overview of MoMa-LLM" width="1200" />
+  <img src="assets/image.png" alt="Overview of ThinkPlan" width="1200" />
 </p>
 
-Please cite the paper as follows:
 
-    @article{honerkamp2024language,
-        title={Language-Grounded Dynamic Scene Graphs for Interactive Object Search with Mobile Manipulation},
-        journal={IEEE Robotics and Automation Letters},
-        author={Daniel Honerkamp and Martin Büchner and Fabien Despinoy and Tim Welschehold and Abhinav Valada},
-        year={2024},
-    }
-
-
+We adapt the code from [**arXiv**](https://arxiv.org/abs/2403.08605)
+The weight of the fine-tunned model can be found [**here**](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/cuong_pham_mbzuai_ac_ae/EuZoi_N-OvtEsRHnlMObw0UB0WmpykeMQTjKOxMcMKbFjw?e=1blu1h)
 ## Docker
 For simple use, we provide a Dockerfile and Vscode devcontainer configuration. 
 
@@ -45,4 +36,6 @@ To use without docker, instead
 3. Follow the data-download steps from the Docker section above
 
 ## Running the approach
-The main entry command is `python run_agent.py`. If not activated, first activate the conda environment with `source activate igibson`. The main settings are defined in `configs/moma_llm.yaml`.
+Running the GPT_4 using python3 main.py
+Running the Local LLM: python3 test.py
+Running the training: python3 train.py
