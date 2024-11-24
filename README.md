@@ -11,7 +11,7 @@ Toyota Motor Europe NV/SA and its affiliates retain all intellectual property an
 </p>
 
 
-We adapt the code from [**arXiv**](https://arxiv.org/abs/2403.08605)
+We adapt the code from [**arXiv**](https://arxiv.org/abs/2403.08605) \\
 The weight of the fine-tunned model can be found [**here**](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/cuong_pham_mbzuai_ac_ae/EuZoi_N-OvtEsRHnlMObw0UB0WmpykeMQTjKOxMcMKbFjw?e=1blu1h)
 ## Docker
 For simple use, we provide a Dockerfile and Vscode devcontainer configuration. 
@@ -36,6 +36,6 @@ To use without docker, instead
 3. Follow the data-download steps from the Docker section above
 
 ## Running the approach
-Running the GPT_4 using python3 main.py
-Running the Local LLM: python3 test.py
+Running the GPT_4 using python3 main.py \\
+Running the Local LLM: python3 test.py \\
 Running the training: python3 train.py
